@@ -20,3 +20,15 @@ for(let i=1;i<=35;i++){
     else{ datebox.innerText=""; datebox.style.backgroundColor="#ffcdb2";}
     dates.appendChild(datebox);
 }
+
+
+// giving functionality to (work)status button
+const workstatus=document.querySelectorAll(".status");
+workstatus.forEach((btn)=>{
+    btn.addEventListener("click",()=>{
+        if(btn.innerText==="Done"){ btn.innerText="Pending"; btn.style.backgroundColor="red";}
+    else { btn.innerText="Done";btn.style.backgroundColor="green";}
+    })
+    if(btn.innerText==="Done") btn.style.backgroundColor="green";
+    else btn.style.backgroundColor="red";
+});

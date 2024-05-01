@@ -139,3 +139,69 @@ body{
     font-size: 4vw;
     color: darkcyan;
 }
+
+
+/* style for to do list */
+.tasks{
+    background-color: #ffcdb2;
+    border-radius: 2vh;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 0.5%;
+}
+.taskhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #99582a;
+    border-radius: 1vh;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a3d8ff;
+    border-radius: 1vh;
+}
+.taskhead div{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: .8vw;
+    font-size: 3.5vw;
+}
+.work div{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    font-size: 2.5vw;
+}
+.editbtn{
+    width: 11%;
+    height:60%;
+    border-radius: 1vh;
+    font-size: 1.5vw;
+    background-color: black;
+    color: white;
+}
+.status{
+    width: 22%;
+    height:60%;
+    border-radius: 1vh;
+    margin-right: 0.3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.addtask{
+    width: 20%;
+    height: 70%;
+    background-color: blue;
+    color:white;
+    font-size: 2vw;
+    margin-right: .7vw;
+    border-radius: 1vh;
+}
+
