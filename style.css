@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* style for header(navbar) */
+.nav-bar{
+    background-color:#ff66b3;
+    height: 8vh;
+    border-radius: 8px;
+    margin: .5vh .5vw 0.5vh .5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    height: 7vh;
+    width: 18vw;
+    font-size: 3.5vw;
+    font-style: italic;
+    color: rgb(26, 26, 61);
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+.name p{
+    margin-left: 0.4vw;
+}
+.logo{
+    width: 6vh;
+    height: 6vh;
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: .3rem;
+    margin-right: .4vw;
+}
+.keywords{
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.keywords a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
