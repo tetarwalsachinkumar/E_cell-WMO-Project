@@ -276,3 +276,17 @@ body{
     border-radius: 50%;
     border: .5vh solid white;
 }
+
+
+/* making site responsive */
+@media (min-width:850px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 1vh;
+        row-gap: 1vh;
+    }
+}
+
+
