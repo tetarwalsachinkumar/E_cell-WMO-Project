@@ -204,6 +204,9 @@ body{
     margin-right: .7vw;
     border-radius: 1vh;
 }
+.unseen{
+    display: none;
+}
 
 
 /* style for budget box */

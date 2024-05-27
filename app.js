@@ -32,3 +32,10 @@ workstatus.forEach((btn)=>{
     if(btn.innerText==="Done") btn.style.backgroundColor="green";
     else btn.style.backgroundColor="red";
 });
+
+// giving fuctonality to add task button
+const addtaskbtn=document.querySelector(".addtask");
+const newtaskdiv=document.querySelector(".newwork");
+addtaskbtn.addEventListener("click",()=>{
+    newtaskdiv.classList.remove("unseen");
+});
