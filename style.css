@@ -207,6 +207,11 @@ body{
 .unseen{
     display: none;
 }
+.newtask{
+    background-color: #a3d8ff;
+    border-style: none;
+    font-size: 2.1vw;
+}
 
 
 /* style for budget box */
